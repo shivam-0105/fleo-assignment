@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', 'sans-serif';
+	/* overflow-x: hidden; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.outer-div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 100vh;
+	background-image: url('./images/backgroundImage.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.repo {
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #54a9da;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 700px;
+	height: 310px;
+	margin: 20px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.searchBox {
+	margin: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.searchBox > input {
+	border: 2.5px solid black;
+	border-radius: 8px;
+	text-align: center;
+	padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.radioButton  {
+	cursor: pointer;
+}
+
+.paginationBttns {
+	width: 80%;
+	height: 40px;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin: 30px 0 20px 0;
+}
+  
+.paginationBttns a {
+	padding: 10px;
+	margin: 8px;
+	border-radius: 5px;
+	border: 2px solid #54a9da;
+	color: black;
+	cursor: pointer;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+  
+.paginationBttns a:hover {
+	color: black;
+	background-color: #54a9da;
+}
+
+.paginationActive a {
+	color: black;
+	background-color: #54a9da;
+}
+
+.paginationDisabled a {
+	display: none;
 }
