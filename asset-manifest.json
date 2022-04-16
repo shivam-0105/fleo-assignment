@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fleo-assignment/static/css/main.403d198a.css",
+    "main.js": "/fleo-assignment/static/js/main.8a1fe61c.js",
+    "static/media/spinner.gif": "/fleo-assignment/static/media/spinner.4409bdfa66ae2e237ffe.gif",
+    "static/media/backgroundImage.png": "/fleo-assignment/static/media/backgroundImage.cc9f21b42f5603991b58.png",
+    "index.html": "/fleo-assignment/index.html",
+    "main.403d198a.css.map": "/fleo-assignment/static/css/main.403d198a.css.map",
+    "main.8a1fe61c.js.map": "/fleo-assignment/static/js/main.8a1fe61c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.403d198a.css",
+    "static/js/main.8a1fe61c.js"
+  ]
+}
